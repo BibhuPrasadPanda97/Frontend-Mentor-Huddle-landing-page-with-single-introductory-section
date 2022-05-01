@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 48px;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.main{
+    margin: auto 125px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 37px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(236, 229, 229);
+    line-height: 1.5;
+}
+
+.logo-img{
+    width: 12rem;
+}
+
+table{
+    margin-top: 1.5rem;
+}
+
+.mock-img{
+    display: inline-block;
+    max-width: 42rem;
+    margin-top: 50px;
+    margin-right: 38px;
+}
+
+.about-text{
+    width: 98%;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.btn{
+    border-radius: 50px;
+    border-style: none;
+    padding: 15px 60px 15px 60px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 4px rgb(0, 0, 0, 20%);
+}
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.contact-section{
+    text-align: right;
+}
+
+.bi{
+    padding: 10px 10px;
+}
+
+.bi:hover{
+    fill: hsl(300, 69%, 71%);
+}
+
+.attribution { 
+    margin: 15px auto 0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; 
+}
+.attribution a { 
+    text-decoration: none;
+    color: white;
+}
+
+.attribution a:hover{
+    color: hsl(300, 69%, 71%);
+}

@@ -21,23 +21,22 @@ p{
 }
 
 .logo-img{
-    width: 12rem;
+    max-width: 12rem;
 }
 
-table{
-    margin-top: 1.5rem;
+.middle-container{
+    display: flex;
 }
 
 .mock-img{
-    display: inline-block;
     max-width: 42rem;
     margin-top: 3.125rem;
     margin-right: 2.375rem;
 }
 
 .about-text{
-    width: 98%;
-    display: inline-block;
+    max-width: 98%;
+    /* display: inline-block; */
     margin-top: 4.688rem;
 }
 
@@ -55,19 +54,21 @@ table{
 }
 
 .contact-section{
-    text-align: right;
+    text-align: center;
+    float: right;
 }
 
 .bi{
-    padding: 0.625rem 0.625rem;
+    padding: 0.625rem 5px;
 }
 
 .bi:hover{
     fill: hsl(300, 69%, 71%);
 }
 
-.attribution { 
-    margin: 0.938rem auto 0;
+.attribution {
+    clear: both;
+    padding: 50px 0 0 0;
     font-size: 0.75rem;
     font-family: 'Open Sans', sans-serif;
     text-align: center; 
